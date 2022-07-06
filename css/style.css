@@ -65,3 +65,71 @@ p{
 }
 
 /* top banner section style end  */
+
+/* ====================================================== */
+
+/* donate today section start */
+.donate-today-section{
+    margin-top: 70px;
+}
+
+.donate-today-text-info{
+    text-align: center;
+}
+
+.donate-today-text-info h2{
+    margin-bottom: 20px;
+}
+
+.donate-today-text-info p{
+    width: 51%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.donate-amount{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 68%;
+    margin: 30px auto;
+}
+
+.submit-donate{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submit-donate input::placeholder{
+    text-align: center;
+    font-family: poppins;
+ }
+
+ .submit-donate input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 60%;
+    padding: 2px;
+    
+ }
+ .submit-donate input:focus{
+    outline: none;
+ }
+
+
+ .donate-amount-box{
+    width: 100px;
+    background-color: #80808021;
+    text-align: center;
+    padding: 28px;
+    border-radius: 4px;
+ }
+
+ .active{
+    border: 1px solid #FF5959;
+    background-color: #f4dfdf;
+    color: #FF5959;
+ }
+
+/* donate toady section end */

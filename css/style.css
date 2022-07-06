@@ -111,7 +111,7 @@ p{
     border-right: none;
     border-left: none;
     width: 60%;
-    padding: 2px;
+    padding: 8px;
     
  }
  .submit-donate input:focus{
@@ -212,13 +212,79 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 200px;
+    height: 250px;
 }
 
 .background-orverlay{
-    height: 200px;
+    height: 250px;
     background-color: rgba(111, 108, 108, 0.603);
     text-align: center;
     padding: 75px;
     color: #fff;
 }
+
+
+/* update section start */
+.update-section{
+    margin-top: 40px;
+}
+
+.update-section-info{
+    text-align: center;
+}
+
+.subscribe{
+    background-color: #FFF4D6;
+    padding: 45px;
+    width: 50%;
+    height: 120px;
+    margin: 20px auto;
+}
+
+.form-inline{
+    text-align: center;
+}
+
+.form-inline input{
+    outline: none;
+    border: none;
+    padding: 7px;
+}
+
+.subscribe-btn{
+    background-color: tomato;
+    width: 101px;
+}
+
+.update-section-info h2{
+    margin-bottom: 20px;
+}
+
+.update-section-info p {
+    width: 40%;
+    margin: 40px auto;
+}
+
+/* update section end */
+
+
+/* footer section style */
+footer{
+    height: 100px;
+    background-color: #000;
+    margin-top: 65px;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+footer h2{
+    color: #FF5959;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 2px;
+}
+
+footer p{
+    color: #FFF4D6;
+}
+/* footer section style end */

@@ -19,7 +19,7 @@ p{
 
 /* top banner section style */
 #top-banner{
-    background-image: url("/images/donation0.jpg");
+    background-image: url("../images/donation0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 560px;
@@ -208,7 +208,7 @@ p{
 /* transparent background */
 
 #transparent-background{
-    background-image: url("/images/donation10.jpg");
+    background-image: url("../images/donation10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

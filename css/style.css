@@ -139,6 +139,7 @@ p{
 /* donate plan section style start */
 .donate-plan-section{
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .donate-plans{
@@ -202,3 +203,22 @@ p{
 
 
 /* donate plan section style end */
+
+
+/* transparent background */
+
+#transparent-background{
+    background-image: url("/images/donation10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+.background-orverlay{
+    height: 200px;
+    background-color: rgba(111, 108, 108, 0.603);
+    text-align: center;
+    padding: 75px;
+    color: #fff;
+}

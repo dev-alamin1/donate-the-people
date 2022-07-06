@@ -70,7 +70,8 @@ p{
 
 /* donate today section start */
 .donate-today-section{
-    margin-top: 70px;
+    margin-top: 132px;
+    height: 400px;
 }
 
 .donate-today-text-info{
@@ -133,3 +134,71 @@ p{
  }
 
 /* donate toady section end */
+
+
+/* donate plan section style start */
+.donate-plan-section{
+    text-align: center;
+}
+
+.donate-plans{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+.donate-plan-items{
+    width: 240px;
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+}
+
+.donate-plan-items p{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.donate-plan-items h3{
+    font-family: poppins;
+    margin-bottom: 5px;
+}
+
+.donate-plan-items img{
+    width: 40px;
+    margin-bottom: 11px;
+    margin-top: 20px;
+}
+
+
+.food-items-color{
+    background-color: #4f9da62e;
+}
+
+.shelter-items-color{
+    background-color: #ff595942;
+}
+
+.education-items-color{
+    background-color: #FFF4D6;
+    
+}
+
+.donate-plan-info{
+    margin-bottom: 40px;
+}
+
+.donate-plan-info p{
+    width: 44%;
+    margin: auto;
+}
+
+.donate-plan-info h2{
+    margin-bottom: 18px;
+}
+
+
+/* donate plan section style end */
